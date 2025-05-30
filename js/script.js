@@ -1,7 +1,8 @@
-if(window.innerWidth < 768){
-    alert("Please open in pc");
-    return;
-}
+window.addEventListener("DOMContentLoaded", () => {
+    if (window.innerWidth < 768) {
+        alert("Please open on a PC for the best experience.");
+    }
+});
 const typingText = document.querySelector(".typing-text p"),
     inputField = document.querySelector(".input-field"),
     mistakeTag = document.querySelector('.mistakes span'),

@@ -1,3 +1,7 @@
+if(window.innerWidth < 768){
+    alert("Please open in pc");
+    return;
+}
 const typingText = document.querySelector(".typing-text p"),
     inputField = document.querySelector(".input-field"),
     mistakeTag = document.querySelector('.mistakes span'),
